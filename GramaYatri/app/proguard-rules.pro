@@ -1,0 +1,1 @@
+-keep class com.gramayatri.app.model.** { *; }

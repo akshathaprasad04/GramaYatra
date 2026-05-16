@@ -1,0 +1,2 @@
+rootProject.name = "Grama Yatri"
+include ':app'

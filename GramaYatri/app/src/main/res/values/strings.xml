@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grama Yatri</string>
+    <string name="live_feed">Live Bus Feed</string>
+    <string name="routes">Bus Routes</string>
+    <string name="send_ping">Send Ping</string>
+    <string name="admin">Admin Panel</string>
+</resources>

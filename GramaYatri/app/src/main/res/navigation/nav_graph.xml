@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.gramayatri.app.ui.home.HomeFragment"
+        android:label="Live Feed" />
+
+    <fragment
+        android:id="@+id/nav_routes"
+        android:name="com.gramayatri.app.ui.route.RouteFragment"
+        android:label="Routes" />
+
+    <fragment
+        android:id="@+id/nav_ping"
+        android:name="com.gramayatri.app.ui.ping.PingFragment"
+        android:label="Send Ping" />
+
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="com.gramayatri.app.ui.admin.AdminFragment"
+        android:label="Admin" />
+
+</navigation>
